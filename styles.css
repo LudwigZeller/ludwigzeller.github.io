@@ -1,5 +1,6 @@
 * {
     background-color: black;
+    color: white;
 }
 
 .center-content{
@@ -10,5 +11,4 @@
 }
 
 .text-content{
-    color: white;
 }
