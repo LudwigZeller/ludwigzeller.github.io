@@ -1,5 +1,6 @@
 :root{
     --animation-time: 2s;
+    --iteration: infinite;
 }
 
 body {
@@ -7,7 +8,7 @@ body {
     margin: 0;
     animation-name: bg;
     animation-duration: var(--animation-time, 2s);
-    animation-iteration-count: infinite;
+    animation-iteration-count: var(--iteration, 10);
 }
 
 @keyframes bg {
@@ -29,7 +30,7 @@ body {
     transform: rotate(-45deg);
     animation-name: beat;
     animation-duration: var(--animation-time, 2s);
-    animation-iteration-count: infinite;
+    animation-iteration-count: var(--iteration, 10);
 }
 
 .heart:before {
